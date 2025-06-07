@@ -326,7 +326,7 @@ const CodeAssistantPage: React.FC = () => {
       }}
     >
       {isUser ? (
-        <Typography variant="body1" sx={{ whiteSpace: "pre-wrap" }}>
+        <Typography variant="body1\" sx={{ whiteSpace: "pre-wrap" }}>
           {content}
         </Typography>
       ) : (
